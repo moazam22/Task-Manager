@@ -1,0 +1,34 @@
+.heading{
+	display: flex;
+	justify-content: flex-start;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+.tableFlex{
+	display: flex;
+	justify-content: center; 
+}
+
+.topContent{
+	display: flex;
+	justify-content: center;
+}
+
+.textarea{
+  border: none;
+  resize: none;
+}

@@ -1,0 +1,9 @@
+.back{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.Display{
+	display: flex;
+	justify-content: center;
+}
